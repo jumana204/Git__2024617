@@ -17,14 +17,17 @@ public class Git__2024617 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
         System.out.println("Jumana-2024617");
+        
          Scanner myKB = new Scanner(System.in);  
-        String userInput;
+        String userInput="";
 
         // Do-while loop will keep asking for the name until valid input is provided
         do {
             // Ask the user to enter their name
             System.out.print("Please enter your name ");
+            
             System.out.println("letters only, no numbers allowed:");
             userInput = myKB.nextLine().trim();   //Read input and remove any surrounding whitespace//
 
